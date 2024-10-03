@@ -1,1 +1,39 @@
 
+[
+    {
+        "key": "dbln",
+        "value": "%7B%2261564872058908%22%3A%22NY9DDOUh%22%2C%22100079935901581%22%3A%22kjQ14pUi%22%7D",
+        "domain": "facebook.com",
+        "path": "/login/device-based/",
+        "hostOnly": false,
+        "creation": "2024-10-03T10:22:57.249Z",
+        "lastAccessed": "2024-10-03T10:22:57.257Z"
+    },
+    {
+        "key": "sb",
+        "value": "-FHNZsyC-DqvlUnbxtr62GPd",
+        "domain": "facebook.com",
+        "path": "/",
+        "hostOnly": false,
+        "creation": "2024-10-03T10:22:57.257Z",
+        "lastAccessed": "2024-10-03T10:22:57.257Z"
+    },
+    {
+        "key": "datr",
+        "value": "dGP-ZkzttNwfU5wOc1Ye1kuu",
+        "domain": "facebook.com",
+        "path": "/",
+        "hostOnly": false,
+        "creation": "2024-10-03T10:22:57.257Z",
+        "lastAccessed": "2024-10-03T10:22:57.257Z"
+    },
+    {
+        "key": "fr",
+        "value": "0mzHMQc940dRiascR..Bm_mN0..AAA.0.0.Bm_mN2.AWXEu3U2UaU",
+        "domain": "facebook.com",
+        "path": "/",
+        "hostOnly": false,
+        "creation": "2024-10-03T10:22:57.257Z",
+        "lastAccessed": "2024-10-03T10:22:57.257Z"
+    }
+]

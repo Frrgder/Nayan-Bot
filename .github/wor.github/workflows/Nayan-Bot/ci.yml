@@ -1,0 +1,36 @@
+name: Nayan-Bot
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  chatbot:
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        attempt: [1, 2, 3]  # Retries the job up to 3 times if it fails
+    steps:
+      - name: Nayan-Bot
+        uses: actions/checkout@v3
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '14' # Use the version your bot requires
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Run chatbot
+        run: npm start
+        timeout-minutes: 60  # Set a timeout for the job, if needed
+
+      - name: Retry message
+        if: ${{ failure() }}  # Only display this step if the job fails
+        run: echo "Attempt ${{ matrix.attempt }} failed. Retrying..."
+
+￼Enter
